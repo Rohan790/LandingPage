@@ -1,0 +1,96 @@
+*
+{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0%;
+    margin: 0%;
+}
+h2
+{
+    font-weight: 700;
+}
+header
+{
+    border-bottom: 1px solid #000;
+    background-color: #e7eff4;
+}
+header nav .navbar-brand
+{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+nav
+{
+    background-color: #e7eff4;
+}
+section img
+{
+    width: 100vw;
+    height: 85vh;
+    margin-bottom: 0%;
+}
+section h2
+{
+    text-align: center;
+    margin: 2%;
+}
+section p
+{
+    text-align: center;
+    margin: 2% 8%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.newestTalks
+{
+    display: flex;
+    margin: 2% 5% 5%;
+    justify-content: space-between;
+}
+.card
+{
+    display: -ms-flexbox;
+    display: flex;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+    width: 48%;
+    padding: 2%;
+    box-shadow: 5px 10px #676565c2;
+}
+.card-img-top
+{
+    height: auto;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    border-bottom-left-radius: calc(.25rem - 1px);
+    border-bottom-right-radius: calc(.25rem - 1px);
+}
+.card-body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-title
+{
+    font-size: 1.8rem;
+    margin: 0% 0% 0% 0%;
+}
+section .newestTalks .card .card-body a
+{
+    margin-top: 2%;
+}
+footer 
+{
+    background-color: #e7eff4;
+    margin-bottom: 0%;
+    height: 5%;
+}
+footer p
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;
+}
