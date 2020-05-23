@@ -1,96 +1,157 @@
 *
 {
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Helvetica Neue;
     padding: 0%;
     margin: 0%;
+    background-color: ivory !important;
 }
-h2
+header, section, section img, newestTalks
 {
-    font-weight: 700;
+    width: 100vw;
+}
+.navbar-brand, h2
+{
+     font-weight: 500;
+}
+h2,h5
+{
+    font-weight: bold;
+    font-family: 'Vast Shadow', cursive;
+}
+.nav-link, .card-text,  footer p
+{
+    font-size: 1vw;
+}
+section h2, section p, .card-body
+{
+    text-align: center;
+}
+.newestTalks, .card, footer p, footer
+{
+    justify-content: center;
+    align-items: center;
+}
+.card, .card-body, footer p
+{
+    display: flex;
 }
 header
 {
-    border-bottom: 1px solid #000;
-    background-color: #e7eff4;
+    z-index: 100;
+}
+header nav
+{
+    padding: 0.6% 4% !important;
 }
 header nav .navbar-brand
 {
-    font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.6vw;
+    font-family: 'Frijole', cursive;
+    text-decoration: underline;
 }
-nav
+.navbar-light .navbar-nav .nav-link
 {
-    background-color: #e7eff4;
+    text-shadow: 0.08vw 0.05vw;
+    padding-right: 2vw !important;
+}
+.navbar-light .navbar-nav .nav-link:hover 
+{
+    text-decoration: underline;    
+}
+.navbar-toggler 
+{
+    padding: 1% 2% !important;
+    font-size: 2vw !important;
+    outline: none !important;
+}
+section
+{
+    z-index:1;
 }
 section img
 {
-    width: 100vw;
-    height: 85vh;
+    height: auto;
     margin-bottom: 0%;
 }
 section h2
 {
-    text-align: center;
     margin: 2%;
+    font-size: 2vw;
+    line-height: 1.2;
 }
 section p
 {
-    text-align: center;
     margin: 2% 8%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vw;
+    color: darkslategray;
+    font-weight: 400;
+    line-height: 1.5;
+}
+hr
+{
+    border: 1px solid !important;
+    margin: 3% auto !important;
 }
 .newestTalks
 {
-    display: flex;
-    margin: 2% 5% 5%;
-    justify-content: space-between;
+    display: flex !important;
+    padding: 2%;
 }
 .card
 {
     display: -ms-flexbox;
-    display: flex;
     word-wrap: break-word;
-    background-color: #fff;
     background-clip: border-box;
     border-radius: .25rem;
-    width: 48%;
-    padding: 2%;
-    box-shadow: 5px 10px #676565c2;
+    width: 40vw;
+    min-height: 20vw;
+    padding: 1%;
+    box-shadow: 0.5vw 1vw #676565c2;
+    flex-direction: row !important;
+    border: 0.2vw solid rgba(0, 0, 0, .125)!important;
 }
 .card-img-top
 {
-    height: auto;
-    border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px);
-    border-bottom-left-radius: calc(.25rem - 1px);
-    border-bottom-right-radius: calc(.25rem - 1px);
+    height: 20vw;
+    width: 50% !important;
+    min-height: 20vh;
 }
 .card-body
 {
-    display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 0% 1% 0% 5% !important;
+    width: 50% !important;
 }
 .card-title
 {
-    font-size: 1.8rem;
-    margin: 0% 0% 0% 0%;
+    font-size: 1.8vw;
+    margin: 0% 0% 0% 0% !important;
 }
-section .newestTalks .card .card-body a
+.card-text
 {
-    margin-top: 2%;
+    line-height: normal;
+    margin: 2%;
+}
+section .newestTalks .card .card-body .btn
+{
+    margin: 4% 0%;
+    padding: 5%;
+    font-size: 1.1vw !important;
+    background-color: #007bff !important;
+}
+section .newestTalks .card .card-body .btn:hover
+{
+    background-color: #007bffab !important;
+}
+.carousel-control-prev, .carousel-control-next, .carousel-control-prev-icon, .carousel-control-next-icon
+{
+    background-color: transparent !important;
 }
 footer 
 {
-    background-color: #e7eff4;
-    margin-bottom: 0%;
-    height: 5%;
+    margin-bottom: 2%;
 }
 footer p
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0%;
+    margin: auto;
 }
